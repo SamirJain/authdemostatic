@@ -1,5 +1,5 @@
 module.exports = async function (context, req) {
-    context.log('JavaScript HTTP trigger function processed a request.');
+    context.log('JavaScript HTTP trigger function processed a request modified one.');
 
     const name = (req.query.name || (req.body && req.body.name));
     const responseMessage = name
